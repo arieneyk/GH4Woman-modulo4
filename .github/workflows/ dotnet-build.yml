@@ -20,7 +20,7 @@ jobs:
           echo "🎉 The job was automatically triggered by a push event."
           echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
           echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-          echo "Hello, this is a push event!"
+          echo "Alteração realizada!"
 
   run-on-schedule:
     runs-on: ubuntu-latest
